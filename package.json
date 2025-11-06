@@ -1,0 +1,19 @@
+{
+  "name": "graphql-crud-api",
+  "version": "1.0.0",
+  "description": "GraphQL CRUD API with Apollo Server",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["graphql", "crud", "apollo-server"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.8.1",
+    "uuid": "^9.0.1"
+  }
+}
